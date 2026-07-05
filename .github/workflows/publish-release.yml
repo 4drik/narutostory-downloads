@@ -22,5 +22,7 @@ jobs:
           gh release create "$GITHUB_REF_NAME" \
             NarutoStory_Installer.exe \
             NarutoStory_Installer_x86.exe \
+            NarutoStory_Installer_macOS.zip \
+            NarutoStory_Installer_Linux.tar.gz \
             --title "Naruto Story Client $GITHUB_REF_NAME" \
-            --notes "Official Naruto Story Windows client installers."
+            --notes "Official Naruto Story installers for Windows, macOS, and Linux."
