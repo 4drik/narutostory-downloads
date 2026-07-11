@@ -4,16 +4,22 @@ Official installers for [Naruto Story](https://narutostory.net/).
 
 ## Current release
 
+Release: `v2026.07.11`
+
 - `NarutoStory_Installer.exe` — Windows x64
 - `NarutoStory_Installer_x86.exe` — Windows x86
 - `NarutoStory_Installer_macOS.zip` — macOS
 - `NarutoStory_Installer_Linux.tar.gz` — Linux
 
+## Changes
+
+- Improved error messages when the installer cannot write to the selected installation folder, for example because the game is still running, the folder is protected/read-only, or antivirus/Controlled Folder Access blocks the write.
+
 ## SHA-256
 
 ```text
-520818E9361646FE36242C7FB4D2BC3E89BE83B0A9504A4B7F10CAE050A6E97D  NarutoStory_Installer.exe
-159E2899BA34A6307F010501DD9E12F445894F089F743EC7C19AAA6100E9C150  NarutoStory_Installer_x86.exe
-1904EFDF3910B85BB3F28C60B5F7FA090B25C5CCD33AD9FA4D66919683F7BB1B  NarutoStory_Installer_macOS.zip
-97C08B9DE56A66BEB3AB55959BF2CF2A47E9F62BC9AE3A2CA169FB34BD573A40  NarutoStory_Installer_Linux.tar.gz
+A4104542BF67DD7D77813BEE9428ED232496CDC38F5A7828907F4099C6D18FA5  NarutoStory_Installer.exe
+D1B06D4DC8E0E50132232CE2E036A14E09F721E75AB4CB4725EA8712F9A19BEE  NarutoStory_Installer_x86.exe
+BCF0C7927348DDE2D7CEBD020778EB97F23CF53F2A4A495D415BD0C6567BB3AE  NarutoStory_Installer_macOS.zip
+E9CE9FA70A0175341871971D271AE0F331DB78494704E48FF7D2698F542C8273  NarutoStory_Installer_Linux.tar.gz
 ```
